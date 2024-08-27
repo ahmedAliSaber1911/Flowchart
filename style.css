@@ -33,7 +33,7 @@
   height: 35px;
 }
 
-/* .title::after{
+ .title::after{
   content: '';
   position: absolute;
   width: 100px;
@@ -42,7 +42,7 @@
   bottom: 9px;
   right: 0;
 }
- */
+ 
 
 .flowchart-container {
   width: 100%;
@@ -65,7 +65,7 @@
   align-items: center;
   justify-content: center;
 }
-/* .start::after {
+ .start::after {
   content: "";
   position: absolute;
   width: 1px;
@@ -74,7 +74,7 @@
   top: 100%;
   left: 42%;
   transform: translateX(-50%);
-} */
+} 
 
 .v-line {
   width: calc(100% - 140px);
@@ -99,7 +99,7 @@
   color: white;
   position: relative;
 }
-/* .second-box::after {
+.second-box::after {
   content: "";
   position: absolute;
   width: 1px;
@@ -108,7 +108,7 @@
   bottom: 100%;
   left: 49%;
   transform: translateX(-51%);
-} */
+} 
 
 .second-box::before, .media-content::before {
   content: "";
@@ -130,7 +130,7 @@
   margin: 5px auto;
   position: relative;
 }
-/* .third-row::after {
+.third-row::after {
   content: "";
   position: absolute;
   width: 1px;
@@ -138,7 +138,7 @@
   background-color: black;
   top: -2%;
   right: -15%;
-} */
+} 
 
 .nested-third-row::before {
   content: "";
@@ -153,14 +153,14 @@
 .forth-nested-box {
   position: relative;
 }
-/* .nested-box::after {
+ .nested-box::after {
   content: "";
   position: absolute;
   width: 18px;
   border: 1px dotted rgba(0, 139, 231, 0.719);
   right: 100%;
   top: 25px;
-} */
+} 
 .third-box,
 .forth-box,
 .fifth-box,
@@ -180,7 +180,7 @@
   border: 2px solid #d1d3d4;
   position: relative;
 }
-/* .third-box::after {
+.third-box::after {
   content: "";
   position: absolute;
   width: 18px;
@@ -189,7 +189,7 @@
   right: -17%;
   top: 50%;
   transform: translatey(-51%);
-} */
+} 
 .third-box::before,
 .forth-box::before,
 .fifth-box::before {
@@ -206,7 +206,7 @@
 }
 
 /* line four  */
-/* 
+ 
 .forth-row::after {
   content: "";
   position: absolute;
@@ -215,30 +215,30 @@
   border: 1px dotted rgba(0, 139, 231, 0.719);
   left: -25px;
   top: -30px;
-} */
+} 
 
 .forth-box::before {
   right: 100%;
   background-color: rgba(0, 139, 231, 0.719);
   transform: translate(50%, -50%);
 }
-/* .forth-box::after,
+ .forth-box::after,
 .fifth-box::after {
   content: "";
   position: absolute;
   width: 23%;
   border: 1px dotted rgba(0, 139, 231, 0.719);
   right: 100%;
-} */
+} 
 
-/* .forth-nested-box::after {
+ .forth-nested-box::after {
   content: "";
   position: absolute;
   width: 18px;
   border: 1px dotted rgba(0, 139, 231, 0.719);
   left: 100%;
   top: 25px;
-} */
+} 
 
 /* line five  */
 .fifth-box {
@@ -247,7 +247,7 @@
   height: 40px;
   color: white;
 }
-/* .fifth-row::after {
+ .fifth-row::after {
   content: "";
   position: absolute;
   width: 0;
@@ -255,7 +255,7 @@
   border: 1px dotted rgba(0, 139, 231, 0.719);
   right: -22px;
   top: -35px;
-} */
+} 
 .fifth-row::before,
 .forth-row::before {
   content: "";
@@ -266,9 +266,9 @@
   left: -16px;
 }
 
-/* .fifth-box::after {
+.fifth-box::after {
   right: -20%;
-} */
+} 
 .fifth-box::before {
   background-color: rgba(0, 139, 231, 0.719);
 }
@@ -277,13 +277,13 @@
 .sixth-box {
   background-color: #e6e7e8;
 }
-/* .sixth-box::after {
+ .sixth-box::after {
   content: "";
   position: absolute;
   width: 12px;
   border: 1px dotted #d1d3d4;
   right: 100%;
-} */
+} 
 .sixth-box::before {
   content: "";
   position: absolute;
@@ -296,7 +296,7 @@
   top: 50%;
   transform: translatey(-51%);
 }
-/* .sixth-row::after {
+ .sixth-row::after {
   content: "";
   position: absolute;
   width: 0;
@@ -304,12 +304,12 @@
   border: 1px dotted #d1d3d4;
   bottom: 27px;
   left: -16px;
-} */
+} 
 
 .second-nested-box {
   position: relative;
 }
-/* 
+ 
 .second-nested-box::after {
   content: "";
   position: absolute;
@@ -318,7 +318,7 @@
   border: 1px dotted #d1d3d4;
   bottom: -3px;
   left: -16px;
-} */
+} 
 .second-nested-box::before {
   content: "";
   position: absolute;
@@ -349,7 +349,7 @@
 
 
 
-/* @media screen  and (max-width: 669.98px){
+ @media screen  and (max-width: 669.98px){
 
     .main {
         padding: 5px;
@@ -373,7 +373,7 @@
       }
       .start {
         width: 11%;
-        height: 20px;
+        height: 30px;
         font-size: 8px;
       }
       .no1 {
@@ -382,6 +382,7 @@
       .second-row {
         width: 100%;
         justify-content: space-between;
+        margin: 0;
       }
       .second-box , .media-content{
         width: 25px;
@@ -394,6 +395,7 @@
       }
       .v-line {
         width: calc(100% - 38px);
+        margin-bottom: 15px;
       }
       .third-box,
       .forth-box,
@@ -481,6 +483,16 @@
     .two-rows::before{
       top: 28%;
     }
+    .second-box::after{
+      height: 15px;
+    }
+    .start::after{
+      height: 30px;
+      
+    }
+    .start{
+      margin-bottom: 15px;
+    }
 }
 
 @media screen and (min-width:670px) and (max-width: 960px) {
@@ -497,6 +509,7 @@
     width: 11%;
     height: 20px;
     font-size: 8px;
+    margin-bottom: 20px;
   }
   .no1 {
     width: 10%;
@@ -504,9 +517,13 @@
   .second-row {
     width: 100%;
     justify-content: space-between;
+    margin-top: 20px;
+  }
+  .second-row > div{
+    width: 9%;
   }
   .second-box, .media-content {
-    width: 45px;
+    width: 100%;
     font-size: 8px;
     height: 30px;
     text-align: center;
@@ -514,14 +531,14 @@
     z-index: 465;
   }
   .v-line {
-    width: calc(100% - 45px);
+    width: calc(100% - 68px);
   }
   .third-box,
   .forth-box,
   .fifth-box,
   .sixth-box {
-    width: 45px;
-    font-size: 3px;
+    width: 60px;
+    font-size: 7px;
     height: 45px;
     text-align: center;
     line-height: 0.5rem;
@@ -538,18 +555,20 @@
     width: 10px;
   }
   .forth-row::after {
-    left: -17px;
+    left: -24px;
     top: -27px;
   }
   .nested-third-row::before{
     height: calc(100% - 50px);
-    left: -17px;
+    left: -24px;
   }
   .nested-box::after{
-    width: 10px;
+    width: 20px;
   }
   .sixth-row::after ,.fifth-row::before, .forth-row::before ,.second-nested-box::after{
-    left: -7px;
+    left: -18px;
+    top: 23px;
+    height: calc(100% + 48px);
   }
    .second-nested-box::before{
     width: 10%;
@@ -559,4 +578,127 @@
   .sixth-box::after{
     width: 6px;
   }
-} */
+  .start::after{
+    left: 49%;
+    height: 40px;
+  }
+  .second-box::after{
+    height: 20px;
+  }
+  .fifth-row::after{
+    right: -11px;
+    height: 100%;
+    top: -25px;
+  }
+  .forth-nested-box::after{
+    width: 7px;
+  }
+} 
+
+
+
+@media screen and (min-width:961px) and (max-width: 1220px) {
+  .main {
+    padding: 5px;
+  }
+  .flowchart-container {
+    padding: 10px;
+  }
+  .title {
+    font-size: 15px;
+  }
+  .start {
+    width: 11%;
+    height: 20px;
+    font-size: 8px;
+    margin-bottom: 20px;
+  }
+  .no1 {
+    width: 10%;
+  }
+  .second-row {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .second-row > div{
+    width: 9%;
+  }
+  .second-box, .media-content {
+    width: 100%;
+    font-size: 10px;
+    height: 30px;
+    text-align: center;
+    padding: 5px;
+    z-index: 465;
+  }
+  .v-line {
+    width: calc(100% - 89px);
+  }
+  .third-box,
+  .forth-box,
+  .fifth-box,
+  .sixth-box {
+    width: 68px;
+    font-size: 8px;
+    height: 45px;
+    text-align: center;
+    line-height: 0.6rem;
+  }
+  .third-row::after {
+    height: calc(100% - 10px);
+    top: -4%;
+  }
+  .two-rows::after {
+    top: -10%;
+  }
+  .third-box::after {
+    right: -17%;
+    width: 10px;
+  }
+  .forth-row::after {
+    left: -24px;
+    top: -27px;
+  }
+  .nested-third-row::before{
+    height: calc(100% - 50px);
+    left: -24px;
+  }
+  .nested-box::after{
+    width: 20px;
+  }
+  .sixth-row::after ,.fifth-row::before, .forth-row::before ,.second-nested-box::after{
+    left: -18px;
+    top: 23px;
+    height: calc(100% + 48px);
+  }
+   .second-nested-box::before{
+    width: 10%;
+        right: 112%;
+        top: 12%;
+  }
+  .sixth-box::after{
+    width: 6px;
+  }
+  .start::after{
+    left: 49%;
+    height: 40px;
+  }
+  .second-box::after{
+    height: 20px;
+  }
+  .fifth-row::after{
+    right: -11px;
+    height: 100%;
+    top: -25px;
+  }
+  .forth-nested-box::after{
+    width: 7px;
+  }
+  .forth-box::after, .fifth-box::after{
+    width: 26%;
+  }
+  .projects::before{
+    top: 51%;
+  }
+} 
