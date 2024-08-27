@@ -702,3 +702,22 @@
     top: 51%;
   }
 } 
+
+@media screen and (min-width:1221px) and (max-width:1440px){ 
+  .second-box, .media-content {
+    width: 120px;
+    font-size: 12px;
+  }
+  .second-row {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .second-row > div{
+    width: 9%;
+  }
+
+  .v-line{
+    width: calc(100% - 120px);
+  }
+}
